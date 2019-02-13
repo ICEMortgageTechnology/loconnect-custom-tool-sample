@@ -1,0 +1,22 @@
+{
+  "name": "@elliemae/em-sample-custom-tool",
+  "version": "1.0.0",
+  "private": true,
+  "description": "This is a sample demo for the custom tool application",
+  "repository": {
+    "type": "git",
+    "url": "Your repo url goes here"
+  },
+  "license": "MIT",
+  "author": "",
+  "scripts": {
+    "start": "live-server .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@elliemae/em-ssf-guest": "1.7.0"
+  },
+  "devDependencies": {
+    "live-server": "1.2.1"
+  }
+}
