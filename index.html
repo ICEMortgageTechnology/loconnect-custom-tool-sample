@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta id="google" content="notranslate" />
+    <meta http-equiv="Content-Language" content="en" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta id="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
+
+    <meta id="msapplication-TileColor" content="#2080CD" />
+
+    <meta id="theme-color" content="#2080CD" />
+    <title>Ellie Mae</title>
+
+    <link href="./public/css/custom-tools.css" rel="stylesheet" />
+    <script src="node_modules/@elliemae/em-ssf-guest/elli.ssf.guest.js"></script>
+    <script src="./public/js/stateList.js"></script>
+    <script src="./public/js/accountsBorrower.js"></script>
+    
+    <script src="./public/js/custom-tools.js"></script>
+  </head>
+
+  <body>
+    <div class="custom-tools2-container">
+      <!-- <div class="forms-header"><strong>Sample HTML Custom Tools</strong></div> -->
+      <div class="forms-subheader">
+        <span> Current Loan - Borrower / Co-Borrower Information </span>
+      </div>
+      <div class="forms-container">
+        <div class="forms-borrower-container">
+          <div class="form-type-title">Borrower</div>
+          <div class="form-row">
+            <div class="form-info">
+              <div class="form-label">First Name</div>
+              <input class="form-value" id="4000" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+            <div class="form-info">
+              <div class="form-label">Middle Name</div>
+              <input class="form-value" id="4001" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-info">
+              <div class="form-label">Last Name</div>
+              <input class="form-value" id="4002" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+            <div class="form-info">
+              <div class="form-label">Suffix</div>
+              <input class="form-value" id="4003" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-info">
+              <div class="form-label">SSN#</div>
+              <input class="form-value" id="65" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+            <div class="form-info">
+              <div class="form-label">Date of Birth</div>
+              <input class="form-value" id="1402" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-info">
+              <div class="form-label">Address</div>
+              <input class="form-value" id="FR0104" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-info city-info">
+              <div class="form-label">City</div>
+              <input class="form-value" id="FR0106" value="fieldMaps[id]" onblur="setFields(id,value)" />
+            </div>
+            <div class="form-info state-info">
+              <div class="form-label">State</div>
+              <select class="form-value dropdown" id="FR0107" value="fieldMaps[id]" onblur="setFields(id,value)"></select>
+            </div>
+            <div class="form-info zip-info">
+              <div class="form-label">Zip</div>
+              <input class="form-value" id="FR0108" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <hr />
+
+          <button class="button search-button">Search Account Info</button>
+          <div class="form-row button-text-descr">(First Name, Last Name or SSN# are required)</div>
+        </div>
+        <div class="forms-coborrower-container">
+          <div class="form-type-title">Co-Borrower</div>
+          <div class="form-row">
+            <div class="form-info">
+              <div class="form-label">First Name</div>
+              <input class="form-value" id="4004" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+            <div class="form-info">
+              <div class="form-label">Middle Name</div>
+              <input class="form-value" id="4005" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-info">
+              <div class="form-label">Last Name</div>
+              <input class="form-value" id="4006" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+            <div class="form-info">
+              <div class="form-label">Suffix</div>
+              <input class="form-value" id="4007" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-info">
+              <div class="form-label">SSN#</div>
+              <input class="form-value" id="97" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+            <div class="form-info">
+              <div class="form-label">Date of Birth</div>
+              <input class="form-value" id="1403" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-info">
+              <div class="form-label">Address</div>
+              <input class="form-value" id="FR0204" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-info city-info">
+              <div class="form-label">City</div>
+              <input class="form-value" id="FR0206" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+            <div class="form-info state-info">
+              <div class="form-label">State</div>
+              <select class="form-value dropdown" id="FR0207" value="fieldMaps[id]" onblur="setFields(id,value)" ></select>
+            </div>
+            <div class="form-info zip-info">
+              <div class="form-label">Zip</div>
+              <input class="form-value"  id="FR0208" value="fieldMaps[id]" onblur="setFields(id,value)"/>
+            </div>
+          </div>
+
+          <hr />
+          <button class="button search-button">Search Account Info</button>
+          <div class="form-row button-text-descr">(First Name, Last Name or SSN# are required)</div>
+        </div>
+      </div>
+      <div class="account-info-container">
+        <div class="account-info-title">Account Information <button class="button update-loan-button">Add Asset</button></div>
+        <div class="account-search-result-container">
+          <div class="account-search-result-header">
+            <div class="hdr-fld cbx">
+              &nbsp;
+            </div>
+            <div class="hdr-fld accnt-hldr-nm">Account Holder Name(s)</div>
+            <div class="hdr-fld ssn">SSN</div>
+            <div class="hdr-fld bank-name">Bank Name</div>
+            <div class="hdr-fld accnt-type">Account Type</div>
+            <div class="hdr-fld accnt-num">Account Number</div>
+            <div class="hdr-fld cash-value">Cash Value</div>
+          </div>
+          <div class="account-search-result-body"><div class="scroller"></div></div>
+        </div>
+      </div>
+    </div>
+    <div>
+     
+    </div>
+  </body>
+</html>

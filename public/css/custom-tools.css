@@ -1,0 +1,316 @@
+
+.custom-tools2-container {
+	display: flex;
+	flex-flow: column;
+	min-height: 100vh;
+	font-family: ProximaNova;
+}
+
+.custom-tools2-container button {
+	color: #2080cd;
+	border: 1px solid #1394e5;
+	box-shadow: 2px 2px 2px #333;
+	padding: 5px 20px;
+	font-size: 14px;
+	font-family: ProximaNova;
+	font-size: 16px;
+	background-color: white;
+}
+
+.custom-tools2-container input[disabled="true"] {
+	background-color: lightgray;
+ }
+ .custom-tools2-container button[disabled="true"] {
+	background-color: lightgray;
+ }
+.custom-tools2-container .search-button {
+	width: 100%;
+}
+
+.custom-tools2-container .forms-header {
+	padding: 15px 20px;
+	border-bottom: 2px solid #000
+}
+.check-box {
+	font-size: 21px;
+}
+.custom-tools2-container .forms-subheader {
+	display: flex;
+	flex-flow: row nowrap;
+	border-bottom: 1px solid #000;
+	align-items: baseline;
+	justify-content: space-between;
+	padding: 15px 15px;
+	background-color: #2080cd;
+	color:white;
+	font-family: ProximaNova;
+	font-weight: bold;
+	font-size: 20px;
+}
+@font-face {
+    font-family: 'ProximaNova';
+    src: url('Proxima Nova.ttf');
+}
+.custom-tools2-container .forms-container {
+	display: flex;
+	flex-flow: row;
+	box-sizing: border-box;
+	width: 100%;
+	border: 1px solid #000
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container,
+.custom-tools2-container .forms-container .forms-coborrower-container {
+	padding: 10px;
+	flex-grow: 1;
+	box-sizing: border-box;
+	justify-content: stretch;
+	width: 50%
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container .form-type-title,
+.custom-tools2-container .forms-container .forms-coborrower-container .form-type-title {
+	color: #000;
+	background-color: #ccc;
+	padding: 5px 10px;
+	font-weight: bold;
+	font-family: ProximaNova;
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container .form-row,
+.custom-tools2-container .forms-container .forms-coborrower-container .form-row {
+	display: flex;
+	flex-flow: row wrap;
+	align-items: stretch;
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container .form-row .form-info,
+.custom-tools2-container .forms-container .forms-coborrower-container .form-row .form-info {
+	padding-top: 10px;
+	flex-flow: column;
+	flex-grow: 1;
+	margin-right: 15px;
+
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container .form-row .city-info,
+.custom-tools2-container .forms-container .forms-coborrower-container .form-row .city-info {
+	width: 50%
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container .form-row .zip-info,
+.custom-tools2-container .forms-container .forms-coborrower-container .form-row .zip-info {
+	width: 20%
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container .form-row .state-info,
+.custom-tools2-container .forms-container .forms-coborrower-container .form-row .state-info {
+	width: 20%
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container .form-row .form-label,
+.custom-tools2-container .forms-container .forms-coborrower-container .form-row .form-label {
+	font-size: 14px;
+	color: #464f5c;
+	font-family: ProximaNova;
+	font-weight: bolder;
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container .form-row .form-value,
+.custom-tools2-container .forms-container .forms-coborrower-container .form-row .form-value {
+	font-size: 16px;
+	color: #333;
+	min-height: 20px;
+	width: 100%;
+	font-family: ProximaNova;
+}
+
+.custom-tools2-container .forms-container .forms-borrower-container {
+	border-right: 3px dashed #b0afb0;
+}
+
+.custom-tools2-container .forms-container .button-text-descr {
+	margin-top: 10px;
+	font-style: italic;
+	font-size: 12px;
+	font-family: ProximaNova;
+}
+.account-info-container {
+	width: 100%;
+}
+.custom-tools2-container .account-info-container .account-info-title {
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid #333;
+	border-top-width: 3px;
+	padding: 10px;
+	background-color: #2080cd;
+	color: white;
+	font-family: ProximaNova;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container {
+	display: flex;
+	justify-content: space-around;
+	flex-flow: column
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-header {
+	display: flex;
+	flex-flow: row;
+	box-sizing: border-box;
+	justify-content: stretch;
+	background-color: #ccc;
+	font-family: ProximaNova;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-header .hdr-fld {
+	display: flex;
+	align-items: center;
+	font-weight: bold;
+	border-bottom: 1px solid black;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-body .scroller {
+	display: flex;
+	flex-flow: column nowrap;
+	box-sizing: border-box;
+	justify-content: stretch
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-body .scroller .account-row {
+	display: flex;
+	flex-flow: row nowrap;
+	box-sizing: border-box;
+	justify-content: stretch;
+	align-items: center;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-body .scroller .account-row:nth-child(even) {
+	background-color: #CCC;
+}
+.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-body .scroller .body-fld {
+	padding: 5px 2px;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .bank-name {
+	width: 15%;
+}
+
+
+.custom-tools2-container .account-info-container .account-search-result-container .accnt-hldr-nm {
+	width: 25%;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .ssn {
+	width: 20%;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .accnt-type {
+	width: calc(20% - 20px);
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .accnt-num {
+	width: 10%;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .cash-value {
+	width: 10%;
+	text-align: right;
+	justify-content: flex-end;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .cbx {
+	width: 20px;
+	text-align: center;
+	padding: 5px 2px;
+}
+
+.custom-tools2-container .account-info-container .account-search-result-container .grid-fld-label{
+	display:none;
+}
+
+
+@media screen and (max-width:800px) {
+	.custom-tools2-container {
+		width: 100%;
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		height: 100%;
+		padding-right: 10px;
+	}
+	.account-info-container {
+		margin-bottom: 50px;
+		width: auto;
+    	padding-left: 10px;
+    	padding-right: 10px;
+	}
+	.custom-tools2-container .account-info-container .account-search-result-container .grid-fld-label{
+		display: flex;
+	}
+	.custom-tools2-container .forms-container {
+		flex-flow: column;
+		border: none;
+	}
+	.custom-tools2-container .forms-container .forms-borrower-container {
+		border-right: none;
+	}	
+	.custom-tools2-container .forms-container .forms-borrower-container,
+	.custom-tools2-container .forms-container .forms-coborrower-container {
+		width: 100%;
+	}
+	.custom-tools2-container .forms-container .forms-borrower-container .form-row .form-info, 
+	.custom-tools2-container .forms-container .forms-coborrower-container .form-row .form-info	
+	 {
+		width: 100%;
+	}
+	.custom-tools2-container .forms-container .forms-borrower-container .form-row .form-value, 
+	.custom-tools2-container .forms-container .forms-coborrower-container .form-row .form-value {
+		border: none;
+		border-bottom: 1px solid lightgray;
+	}
+
+	.custom-tools2-container .account-info-container .account-search-result-container .cbx {
+		width: 5%;
+		text-align: center;
+	}
+	.custom-tools2-container .account-info-container .account-search-result-container .bank-name {
+		width: 45%
+	}	
+	.custom-tools2-container .account-info-container .account-search-result-container .accnt-hldr-nm {
+		width: 45%
+	}
+	.custom-tools2-container .account-info-container .account-search-result-container .ssn {
+		width: 45%
+	}
+
+	.custom-tools2-container .account-info-container .account-search-result-container .accnt-type {
+		width: 33%
+	}
+	.custom-tools2-container .account-info-container .account-search-result-container .accnt-num {
+		width: 30%
+	}
+	.custom-tools2-container .account-info-container .account-search-result-container .cash-value {
+		width: 33%;
+	}	
+	.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-header {
+		display: none;
+	}
+	
+	.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-body .scroller .account-row,
+	.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-header {
+		flex-flow: column nowrap;
+	}
+	.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-body .scroller .body-fld { 
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		width: 100%;
+	}
+	.custom-tools2-container .account-info-container .account-search-result-container .account-search-result-body .scroller .body-fld.cbx {
+		justify-content: flex-end;
+	}
+}
