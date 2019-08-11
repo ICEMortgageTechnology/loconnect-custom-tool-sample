@@ -11,7 +11,7 @@ window.accountsBorrower = [
         "address": "",
         "city": "",
         "state": "",
-        "zipcode": ,
+        "zipcode": "",
         "ssn": ""
       },
       "account": {
@@ -19,7 +19,7 @@ window.accountsBorrower = [
         "index": 1,
         "bankName": "A Bank",
         "type": "Checking Account",
-        "cash": 00000,
+        "cash": 0,
         "name": "FirstName LastName"
       }
     },
@@ -35,7 +35,7 @@ window.accountsBorrower = [
         "address": "",
         "city": "",
         "state": "",
-        "zipcode": ,
+        "zipcode": "",
         "ssn": ""
       },
       "account": {
@@ -59,7 +59,7 @@ window.accountsBorrower = [
         "address": "",
         "city": "",
         "state": "",
-        "zipcode": ,
+        "zipcode": "",
         "ssn": ""
       },
       "account": {
@@ -83,7 +83,7 @@ window.accountsBorrower = [
         "address": "",
         "city": "",
         "state": "",
-        "zipcode": ,
+        "zipcode": "",
         "ssn": ""
       },
       "coborrower": {
@@ -94,7 +94,7 @@ window.accountsBorrower = [
         "address": "",
         "city": "",
         "state": "",
-        "zipcode": ,
+        "zipcode": "",
         "ssn": ""
       },
       "account": {
@@ -119,7 +119,7 @@ window.accountsBorrower = [
         "address": "",
         "city": "",
         "state": "",
-        "zipcode": ,
+        "zipcode": "",
         "ssn": ""
       },
       "coborrower": {
@@ -155,7 +155,7 @@ window.accountsBorrower = [
         "address": "",
         "city": "",
         "state": "",
-        "zipcode": ,
+        "zipcode": "",
         "ssn": ""
       },
       "coborrower": {
@@ -202,7 +202,7 @@ window.accountsBorrower = [
         "address": "",
         "city": "",
         "state": "",
-        "zipcode": ,
+        "zipcode": "",
         "ssn": ""
       },
       "account": {
@@ -226,7 +226,7 @@ window.accountsBorrower = [
         "address": "",
         "city": "",
         "state": "",
-        "zipcode": ,
+        "zipcode": "",
         "ssn": ""
       },
       "coborrower": {
@@ -283,5 +283,5 @@ window.accountsBorrower = [
           "cash": 125000,
           "name": "aLName aLname"
         }
-    }        
+    }
   ]
